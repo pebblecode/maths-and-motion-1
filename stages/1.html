@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>PaperJs Experiments</title>
+
+  <link rel="stylesheet" href="../style.css">
+  <script type="text/javascript" src="../js/paper-full.js"></script>
+
+  <script type="text/paperscript" canvas="mycanvas">
+
+    var myCircle = new Path.Circle(view.center, 20);
+    myCircle.fillColor = ‘white’;
+
+  </script>
+</head>
+<body>
+
+	<canvas id="mycanvas" class="fullwidthbgcanvas" resize></canvas>
+
+</body>
+</html>

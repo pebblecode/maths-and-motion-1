@@ -1,0 +1,281 @@
+/* line 5, /Users/niall/repos/maths-and-motion/src/sass/_normalize.scss */
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
+
+/* line 12, /Users/niall/repos/maths-and-motion/src/sass/_normalize.scss */
+body {
+  margin: 0; }
+
+/* line 31, /Users/niall/repos/maths-and-motion/src/sass/_normalize.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+  display: block; }
+
+/* line 40, /Users/niall/repos/maths-and-motion/src/sass/_normalize.scss */
+audio, canvas, progress, video {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */ }
+
+/* line 47, /Users/niall/repos/maths-and-motion/src/sass/_normalize.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/* line 55, /Users/niall/repos/maths-and-motion/src/sass/_normalize.scss */
+[hidden], template {
+  display: none; }
+
+/* line 63, /Users/niall/repos/maths-and-motion/src/sass/_normalize.scss */
+a {
+  background: transparent; }
+
+/* line 69, /Users/niall/repos/maths-and-motion/src/sass/_normalize.scss */
+a:active, a:hover {
+  outline: 0; }
+
+/* line 77, /Users/niall/repos/maths-and-motion/src/sass/_normalize.scss */
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/* line 83, /Users/niall/repos/maths-and-motion/src/sass/_normalize.scss */
+b, strong {
+  font-weight: bold; }
+
+/* line 88, /Users/niall/repos/maths-and-motion/src/sass/_normalize.scss */
+dfn {
+  font-style: italic; }
+
+/* line 93, /Users/niall/repos/maths-and-motion/src/sass/_normalize.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/* line 99, /Users/niall/repos/maths-and-motion/src/sass/_normalize.scss */
+mark {
+  background: #ff0;
+  color: #000; }
+
+/* line 105, /Users/niall/repos/maths-and-motion/src/sass/_normalize.scss */
+small {
+  font-size: 80%; }
+
+/* line 111, /Users/niall/repos/maths-and-motion/src/sass/_normalize.scss */
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+/* line 118, /Users/niall/repos/maths-and-motion/src/sass/_normalize.scss */
+sup {
+  top: -0.5em; }
+
+/* line 122, /Users/niall/repos/maths-and-motion/src/sass/_normalize.scss */
+sub {
+  bottom: -0.25em; }
+
+/* line 130, /Users/niall/repos/maths-and-motion/src/sass/_normalize.scss */
+img {
+  border: 0; }
+
+/* line 135, /Users/niall/repos/maths-and-motion/src/sass/_normalize.scss */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* line 143, /Users/niall/repos/maths-and-motion/src/sass/_normalize.scss */
+figure {
+  margin: 1em 40px; }
+
+/* line 148, /Users/niall/repos/maths-and-motion/src/sass/_normalize.scss */
+hr {
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0; }
+
+/* line 155, /Users/niall/repos/maths-and-motion/src/sass/_normalize.scss */
+pre {
+  overflow: auto; }
+
+/* line 163, /Users/niall/repos/maths-and-motion/src/sass/_normalize.scss */
+code, kbd, pre, samp {
+  font-family: monospace, monospace;
+  font-size: 1em; }
+
+/* line 182, /Users/niall/repos/maths-and-motion/src/sass/_normalize.scss */
+button, input, optgroup, select, textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0; }
+
+/* line 189, /Users/niall/repos/maths-and-motion/src/sass/_normalize.scss */
+button {
+  overflow: visible; }
+
+/* line 198, /Users/niall/repos/maths-and-motion/src/sass/_normalize.scss */
+button, select {
+  text-transform: none; }
+
+/* line 208, /Users/niall/repos/maths-and-motion/src/sass/_normalize.scss */
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */ }
+
+/* line 215, /Users/niall/repos/maths-and-motion/src/sass/_normalize.scss */
+button[disabled], html input[disabled] {
+  cursor: default; }
+
+/* line 221, /Users/niall/repos/maths-and-motion/src/sass/_normalize.scss */
+button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/* line 228, /Users/niall/repos/maths-and-motion/src/sass/_normalize.scss */
+input {
+  line-height: normal; }
+
+/* line 238, /Users/niall/repos/maths-and-motion/src/sass/_normalize.scss */
+input[type="checkbox"], input[type="radio"] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0; }
+
+/* line 247, /Users/niall/repos/maths-and-motion/src/sass/_normalize.scss */
+input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/* line 253, /Users/niall/repos/maths-and-motion/src/sass/_normalize.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box; }
+
+/* line 263, /Users/niall/repos/maths-and-motion/src/sass/_normalize.scss */
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/* line 268, /Users/niall/repos/maths-and-motion/src/sass/_normalize.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/* line 276, /Users/niall/repos/maths-and-motion/src/sass/_normalize.scss */
+legend {
+  border: 0;
+  padding: 0; }
+
+/* line 282, /Users/niall/repos/maths-and-motion/src/sass/_normalize.scss */
+textarea {
+  overflow: auto; }
+
+/* line 288, /Users/niall/repos/maths-and-motion/src/sass/_normalize.scss */
+optgroup {
+  font-weight: bold; }
+
+/* line 296, /Users/niall/repos/maths-and-motion/src/sass/_normalize.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 302, /Users/niall/repos/maths-and-motion/src/sass/_normalize.scss */
+td, th {
+  padding: 0; }
+
+/* line 21, /Users/niall/repos/maths-and-motion/src/sass/styles.scss */
+*, *::before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased; }
+
+/* line 27, /Users/niall/repos/maths-and-motion/src/sass/styles.scss */
+ul {
+  padding: 0;
+  list-style: none; }
+
+/* line 33, /Users/niall/repos/maths-and-motion/src/sass/styles.scss */
+html, body {
+  color: black;
+  font-family: sans-serif;
+  line-height: 1.4;
+  margin: 0;
+  padding: 0;
+  height: 100%; }
+
+/* line 47, /Users/niall/repos/maths-and-motion/src/sass/styles.scss */
+body {
+  font-family: platform;
+  -moz-font-feature-settings: "ss01" 1;
+  -ms-font-feature-settings: "ss01" 1;
+  -o-font-feature-settings: "ss01" 1;
+  -webkit-font-feature-settings: "ss01" 1;
+  font-feature-settings: "ss01" 1; }
+
+/* line 56, /Users/niall/repos/maths-and-motion/src/sass/styles.scss */
+h1 {
+  color: white;
+  font-weight: 100;
+  font-size: 64px; }
+
+/* line 66, /Users/niall/repos/maths-and-motion/src/sass/styles.scss */
+.test-box {
+  width: 400px;
+  height: 300px;
+  background: url(../img/gradient.jpg);
+  -webkit-background-size: cover;
+  background-size: cover;
+  padding: 2px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s; }
+  /* line 75, /Users/niall/repos/maths-and-motion/src/sass/styles.scss */
+  .test-box:hover {
+    padding: 6px; }
+
+/* line 80, /Users/niall/repos/maths-and-motion/src/sass/styles.scss */
+.inner-box {
+  width: 100%;
+  height: 100%;
+  background: #2C2926;
+  text-align: center; }
+
+/* line 87, /Users/niall/repos/maths-and-motion/src/sass/styles.scss */
+.intro-text {
+  font-weight: 300;
+  color: white;
+  font-size: 32px; }
+
+/* line 93, /Users/niall/repos/maths-and-motion/src/sass/styles.scss */
+#logocanvas {
+  background: #fff;
+  width: 100%;
+  height: 100%; }
+
+/* line 99, /Users/niall/repos/maths-and-motion/src/sass/styles.scss */
+.fullwidthbgcanvas {
+  width: 100%;
+  height: 100%;
+  background: #113;
+  position: fixed;
+  z-index: -1;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0; }
+
+/* line 111, /Users/niall/repos/maths-and-motion/src/sass/styles.scss */
+.inner-wrapper {
+  padding: 50px; }
+
+/* line 115, /Users/niall/repos/maths-and-motion/src/sass/styles.scss */
+.logotitle {
+  margin: 0;
+  padding: 0;
+  line-height: 0.6; }
