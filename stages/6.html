@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>PaperJs Experiments</title>
+
+  <link rel="stylesheet" href="../style.css">
+  <script type="text/javascript" src="../js/paper-full.js"></script>
+
+    <script type="text/paperscript" canvas="mycanvas">
+      function createTriangle(_triangleCenter, _radius){
+        var c = _triangleCenter;
+        var Radius = _radius;
+
+        var points = [
+          new Point(c.x + Radius, c.y+Radius),
+          new Point(c.x - Radius, c.y+Radius),
+          new Point(c.x, c.y-Radius)
+          ];
+
+        var path = new Path(points);
+        var triangleColor = Color.random();
+        path.fillColor = triangleColor;
+      }
+
+      var triDistance = 50;
+
+      for(var i = 0; i < view.size.width; i+= triDistance) {
+        for(var j = 0; j < view.size.height; j+= triDistance) {
+          var Radius = triDistance/2;
+          var triangleCenter = new Point(i,j);
+          createTriangle(triangleCenter, Radius);
+
+          var nextTriangleCenter = new Point(i+Radius,j);
+          createTriangle(nextTriangleCenter, -Radius);
+        }
+      }
+    </script>
+</head>
+<body>
+
+	<canvas id="mycanvas" class="fullwidthbgcanvas" resize></canvas>
+
+</body>
+</html>

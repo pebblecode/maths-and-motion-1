@@ -10,8 +10,26 @@
   <script type="text/javascript" src="../js/paper-full.js"></script>
 
     <script type="text/paperscript" canvas="mycanvas">
-       var myCircle = new Path.Circle(view.center, 20);
-          myCircle.fillColor = "white";
+       function createTriangle(triangleCenter){
+      var c = triangleCenter;
+      var Radius = 50;
+
+    var points = [
+      new Point(c.x + Radius, c.y+Radius),
+      new Point(c.x - Radius, c.y+Radius),
+      new Point(c.x, c.y-Radius)
+      ];
+
+    var path = new Path(points);
+      path.fillColor = "white";
+      path.fillColor = Color.random();
+  }
+
+  createTriangle(view.center);
+
+  function onMouseMove(event) {
+    createTriangle(event.point);
+  }
     </script>
 </head>
 <body>
